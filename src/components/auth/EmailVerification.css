@@ -1,0 +1,50 @@
+/* components/auth/EmailVerification.css */
+.email-verification-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .email-verification-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .email-verification-container p {
+    font-size: 1.2em;
+    text-align: center;
+    color: #555;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .email-verification-container {
+      padding: 15px;
+    }
+  
+    .email-verification-container h2 {
+      font-size: 1.5em;
+    }
+  
+    .email-verification-container p {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .email-verification-container h2 {
+      font-size: 1.2em;
+    }
+  
+    .email-verification-container p {
+      font-size: 0.9em;
+    }
+  }
+  
